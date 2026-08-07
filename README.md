@@ -42,9 +42,9 @@ Building LLMs and ML tools
 
 #### [Cyber Agent](https://github.com/shrey1110-dotcom/Cyber_agent)
 
-Cybersecurity LLM + sandboxed terminal agent, trained from scratch on limited local hardware.
+A local cybersecurity model and terminal agent I trained from scratch on limited hardware. It can inspect files and run a fixed set of tools, but only inside a Docker container with no network.
 
-Tools run in a network-disabled Docker sandbox behind a closed tool registry.
+Built the data pipeline, tokenizer, MLX training path, and the sandbox that keeps tool calls locked to a small JSON schema.
 
 <br/>
 
@@ -57,9 +57,9 @@ Tools run in a network-disabled Docker sandbox behind a closed tool registry.
 
 #### [ScopeKit](https://github.com/shrey1110-dotcom/ScopeKit)
 
-Context packs for coding agents — less noise in the window, more room for useful code.
+A CLI that picks the files, symbols, and tests an AI coding agent actually needs for a task, instead of dumping the whole repo into context.
 
-CLI + optional MCP for Claude, Codex, and Cursor. Published on npm.
+Works with Claude, Codex, and Cursor over MCP. Published on npm.
 
 <br/>
 
@@ -76,9 +76,9 @@ CLI + optional MCP for Claude, Codex, and Cursor. Published on npm.
 
 #### [Motion Analysis](https://github.com/shrey1110-dotcom/Motion_analysis)
 
-Pose estimation → biomechanics scoring → coaching feedback for live video or uploads.
+Takes live camera or uploaded workout video, tracks body pose in the browser with MoveNet, then scores form on a FastAPI backend.
 
-Browser MoveNet keypoints; FastAPI scores technique against reference ranges.
+The browser sends keypoints. The API computes joint angles, compares them to reference ranges, and returns a score plus coaching notes.
 
 <br/>
 
@@ -91,9 +91,9 @@ Browser MoveNet keypoints; FastAPI scores technique against reference ranges.
 
 #### [Frontline AI](https://retain-ai-eight.vercel.app)
 
-AI lead-recovery for service businesses — missed calls, SMS, voice callbacks, owner handoff.
+Product for local service businesses that miss calls and texts. It answers SMS, can call people back, and hands messy cases to the owner.
 
-`Private` · Next.js + Twilio + Gemini + Supabase
+Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billing and Vitest coverage.
 
 <br/>
 
