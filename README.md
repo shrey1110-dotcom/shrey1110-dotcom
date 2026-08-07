@@ -34,12 +34,6 @@ Building LLMs and ML tools
 
 `SQL` · `Twilio` · `MLX` · `MoveNet` · `MCP` · `Gemini` · `Stripe` · `Zod` · `Vitest` · `pytest` · `Playwright`
 
-### About
-
-CS @ CSULB building AI infrastructure, developer tools, ML systems, and backend products.
-
-Working across Python and TypeScript — from sandboxed agents and model pipelines to APIs, databases, cloud tooling, and production web applications.
-
 ### Featured Engineering
 
 <table>
