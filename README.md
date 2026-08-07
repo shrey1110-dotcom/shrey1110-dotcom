@@ -42,9 +42,11 @@ Building LLMs and ML tools
 
 #### [Cyber Agent](https://github.com/shrey1110-dotcom/Cyber_agent)
 
-Open-weight cybersecurity LLM and sandboxed terminal agent, trained from scratch on limited local hardware — requiring custom algorithms to stay within memory headroom while still fitting real training and inference work.
+Cybersecurity LLM + sandboxed terminal agent, trained from scratch on limited local hardware.
 
-Runs agent tools inside a non-root, network-disabled Docker sandbox behind a closed tool registry and strict JSON schemas, with auditable data pipelines and local MLX training.
+Tools run in a network-disabled Docker sandbox behind a closed tool registry.
+
+<br/>
 
 `Python` · `Docker` · `MLX` · `pytest`
 
@@ -55,9 +57,11 @@ Runs agent tools inside a non-root, network-disabled Docker sandbox behind a clo
 
 #### [ScopeKit](https://github.com/shrey1110-dotcom/ScopeKit)
 
-Gives coding agents compact, task-specific context packs — cutting down what they have to read so more of the window is left for useful code, tests, and reasoning.
+Context packs for coding agents — less noise in the window, more room for useful code.
 
-Optional MCP server for Claude, Codex, and Cursor. Published on npm.
+CLI + optional MCP for Claude, Codex, and Cursor. Published on npm.
+
+<br/>
 
 `TypeScript` · `Node.js` · `MCP` · `Zod` · `Vitest`
 
@@ -72,9 +76,11 @@ Optional MCP server for Claude, Codex, and Cursor. Published on npm.
 
 #### [Motion Analysis](https://github.com/shrey1110-dotcom/Motion_analysis)
 
-End-to-end motion analysis: browser MoveNet pose estimation, FastAPI biomechanics scoring, and coaching feedback for live camera or uploaded video.
+Pose estimation → biomechanics scoring → coaching feedback for live video or uploads.
 
-Keypoints stay in the browser; the API scores technique against reference ranges and returns metrics, feedback, and timeline data.
+Browser MoveNet keypoints; FastAPI scores technique against reference ranges.
+
+<br/>
 
 `Python` · `FastAPI` · `TensorFlow.js` · `MoveNet` · `Docker`
 
@@ -83,13 +89,13 @@ Keypoints stay in the browser; the API scores technique against reference ranges
 </td>
 <td width="50%" valign="top">
 
-#### Frontline AI
+#### [Frontline AI](https://retain-ai-eight.vercel.app)
 
-`Private Codebase`
+AI lead-recovery for service businesses — missed calls, SMS, voice callbacks, owner handoff.
 
-AI lead-recovery SaaS for service businesses — missed-call and inbound SMS handling with business-rule grounded replies, voice callbacks, and owner handoff.
+`Private` · Next.js + Twilio + Gemini + Supabase
 
-Multi-tenant Next.js product with Twilio webhooks, Supabase auth/data, Gemini generation, Stripe billing, and Vitest coverage.
+<br/>
 
 `Next.js` · `TypeScript` · `Twilio` · `Gemini` · `Supabase` · `Vitest`
 
