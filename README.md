@@ -115,14 +115,10 @@ Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billin
 
 <div align="center">
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shrey1110-dotcom&theme=github_dark" alt="GitHub statistics" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrey1110-dotcom&theme=github_dark&exclude=HTML,CSS,Shell,Makefile,Dockerfile,Jupyter%20Notebook" alt="Top languages by repository" />
+  <img height="180" src="./assets/languages-pie.svg" alt="Top languages including Objective-C and Swift" />
 </div>
 
 <br/>
-
-<div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shrey1110-dotcom&theme=github_dark&exclude=HTML,CSS,Shell,Makefile,Dockerfile,Jupyter%20Notebook" alt="Top languages by commit" />
-</div>
 
 ### Currently Building
 
