@@ -115,15 +115,23 @@ Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billin
 
 <div align="center">
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shrey1110-dotcom&theme=github_dark" alt="GitHub statistics" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrey1110-dotcom&theme=github_dark&exclude=HTML,CSS,Shell,Makefile,Dockerfile,Jupyter%20Notebook" alt="Top languages by repository" />
 </div>
 
 <br/>
 
-<div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shrey1110-dotcom&theme=github_dark&exclude=HTML,CSS,Shell,Makefile,Dockerfile,Jupyter%20Notebook" alt="Top languages by commit" />
-</div>
+#### Languages across my projects
 
+Includes private repos such as stuff-helper and Frontline AI. Public GitHub language widgets cannot see that code, so this list is the accurate one.
+
+```text
+TypeScript     ██████████████████░░░░░░░░░░░░  42%
+Python         █████████████░░░░░░░░░░░░░░░░░  30%
+JavaScript     ███████░░░░░░░░░░░░░░░░░░░░░░░  16%
+Objective-C    ███░░░░░░░░░░░░░░░░░░░░░░░░░░░   7%
+Swift          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1%
+```
+
+`Swift` and `Objective-C` come mainly from stuff-helper. `TypeScript` is high because of Frontline AI, ScopeKit, and DetectResearch.
 ### Currently Building
 
 - Secure local AI agents with sandboxed tool execution
