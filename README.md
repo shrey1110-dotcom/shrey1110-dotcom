@@ -29,10 +29,10 @@ Building LLMs and ML tools
 ### Languages & Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,cpp,ts,js,go,postgres,docker,fastapi,nodejs,react,nextjs,tailwind,vite,aws,cloudflare,vercel,supabase,tensorflow,prisma,opencv,linux,git" alt="Python, C++, TypeScript, JavaScript, Go, PostgreSQL, Docker, FastAPI, Node.js, React, Next.js, Tailwind, Vite, AWS, Cloudflare, Vercel, Supabase, TensorFlow, Prisma, OpenCV, Linux, Git" />
+  <img src="https://skillicons.dev/icons?i=py,cpp,rust,ts,js,go,swift,postgres,docker,fastapi,nodejs,react,nextjs,tailwind,vite,aws,cloudflare,vercel,supabase,tensorflow,prisma,opencv,linux,git" alt="Python, C++, Rust, TypeScript, JavaScript, Go, Swift, PostgreSQL, Docker, FastAPI, Node.js, React, Next.js, Tailwind, Vite, AWS, Cloudflare, Vercel, Supabase, TensorFlow, Prisma, OpenCV, Linux, Git" />
 </p>
 
-`SQL` · `Twilio` · `MLX` · `MoveNet` · `MCP` · `Gemini` · `Stripe` · `Zod` · `Vitest` · `pytest` · `Playwright`
+`Objective-C` · `SQL` · `Twilio` · `MLX` · `MoveNet` · `MCP` · `Gemini` · `Stripe` · `Zod` · `Vitest` · `pytest` · `Playwright`
 
 ### Featured Engineering
 
