@@ -17,7 +17,7 @@ Building LLMs and ML tools
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shrey1110-dotcom&theme=github_dark" alt="GitHub contributions" width="100%" />
+<img src="./assets/github-streak.svg" alt="GitHub contribution streak" width="495" height="195" />
 
 <br/>
 
