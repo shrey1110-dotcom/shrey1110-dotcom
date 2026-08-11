@@ -17,7 +17,7 @@ Building LLMs and ML tools
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=shrey1110-dotcom&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=FF4500&fire=FF1E00&currStreakLabel=FF6A00&currStreakNum=FFFFFF" alt="2,240 contributions · 80-day longest streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shrey1110-dotcom&theme=github_dark" alt="GitHub contributions" width="100%" />
 
 <br/>
 
@@ -29,7 +29,9 @@ Building LLMs and ML tools
 ### Languages & Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,cpp,rust,ts,js,go,swift,postgres,docker,fastapi,nodejs,react,nextjs,tailwind,vite,aws,cloudflare,vercel,supabase,tensorflow,prisma,opencv,linux,git" alt="Python, C++, Rust, TypeScript, JavaScript, Go, Swift, PostgreSQL, Docker, FastAPI, Node.js, React, Next.js, Tailwind, Vite, AWS, Cloudflare, Vercel, Supabase, TensorFlow, Prisma, OpenCV, Linux, Git" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,cpp,rust,ts,js,go,swift,postgres,docker,fastapi,nodejs,react,nextjs,tailwind,vite,aws,cloudflare,vercel,supabase,tensorflow,prisma,opencv,linux,git" alt="Python, C++, Rust, TypeScript, JavaScript, Go, Swift, PostgreSQL, Docker, FastAPI, Node.js, React, Next.js, Tailwind, Vite, AWS, Cloudflare, Vercel, Supabase, TensorFlow, Prisma, OpenCV, Linux, Git" />
+  </a>
 </p>
 
 `Objective-C` · `SQL` · `Twilio` · `MLX` · `MoveNet` · `MCP` · `Gemini` · `Stripe` · `Zod` · `Vitest` · `pytest` · `Playwright`
