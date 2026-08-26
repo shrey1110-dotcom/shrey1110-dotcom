@@ -1,0 +1,44 @@
+name: Update streak card
+
+on:
+  schedule:
+    # Every 3 hours — local SVG, not demolab's 24h cache
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_streak.py"
+      - ".github/workflows/update-streak.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate streak SVG
+        env:
+          # Prefer a classic PAT (read:user) so private contributions match your profile.
+          # Fallback github.token only sees public activity.
+          GITHUB_TOKEN: ${{ secrets.STREAK_GITHUB_TOKEN || github.token }}
+          GITHUB_USERNAME: shrey1110-dotcom
+        run: python3 scripts/generate_streak.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-streak.svg
+          if git diff --staged --quiet; then
+            echo "No streak changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh github streak card"
+          git push
