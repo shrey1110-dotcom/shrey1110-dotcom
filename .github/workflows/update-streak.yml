@@ -2,13 +2,14 @@ name: Update profile SVGs
 
 on:
   schedule:
-    # Every 3 hours — local SVGs, not third-party hosts
-    - cron: "0 */3 * * *"
+    # Every 30 minutes for near-live numbers
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     paths:
       - "scripts/generate_streak.py"
       - "scripts/generate_activity_graph.py"
+      - "scripts/update_readme_cache_bust.py"
       - ".github/workflows/update-streak.yml"
 
 concurrency:
@@ -38,12 +39,13 @@ jobs:
         run: |
           python3 scripts/generate_streak.py
           python3 scripts/generate_activity_graph.py
+          python3 scripts/update_readme_cache_bust.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-streak.svg assets/activity-graph.svg
+          git add assets/github-streak.svg assets/activity-graph.svg README.md
           if git diff --staged --quiet; then
             echo "No SVG changes"
             exit 0

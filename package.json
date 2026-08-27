@@ -1,0 +1,7 @@
+{
+  "name": "shrey1110-profile-svgs",
+  "private": true,
+  "type": "module",
+  "description": "Live streak + activity SVG APIs for the GitHub profile README",
+  "engines": { "node": ">=18" }
+}
