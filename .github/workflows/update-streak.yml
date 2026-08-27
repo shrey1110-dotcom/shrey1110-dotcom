@@ -1,13 +1,14 @@
-name: Update streak card
+name: Update profile SVGs
 
 on:
   schedule:
-    # Every 3 hours — local SVG, not demolab's 24h cache
+    # Every 3 hours — local SVGs, not third-party hosts
     - cron: "0 */3 * * *"
   workflow_dispatch:
   push:
     paths:
       - "scripts/generate_streak.py"
+      - "scripts/generate_activity_graph.py"
       - ".github/workflows/update-streak.yml"
 
 concurrency:
@@ -23,7 +24,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Need full history for pull --rebase against concurrent updates
           fetch-depth: 0
           token: ${{ secrets.STREAK_GITHUB_TOKEN || github.token }}
 
@@ -31,23 +31,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate streak SVG
+      - name: Generate streak + activity SVGs
         env:
-          # Prefer a classic PAT (read:user) so private contributions match your profile.
-          # Fallback github.token only sees public activity on some accounts.
           GITHUB_TOKEN: ${{ secrets.STREAK_GITHUB_TOKEN || github.token }}
           GITHUB_USERNAME: shrey1110-dotcom
-        run: python3 scripts/generate_streak.py
+        run: |
+          python3 scripts/generate_streak.py
+          python3 scripts/generate_activity_graph.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-streak.svg
+          git add assets/github-streak.svg assets/activity-graph.svg
           if git diff --staged --quiet; then
-            echo "No streak changes"
+            echo "No SVG changes"
             exit 0
           fi
-          git commit -m "chore: refresh github streak card"
+          git commit -m "chore: refresh profile activity SVGs"
           git pull --rebase origin main
           git push

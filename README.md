@@ -110,7 +110,7 @@ Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billin
 ### Engineering Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shrey1110-dotcom&bg_color=0d1117&color=c9d1d9&line=e11d48&point=fb7185&area=false&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
+  <img src="./assets/activity-graph.svg" alt="Contribution activity graph" width="100%" />
 </div>
 
 <br/>
