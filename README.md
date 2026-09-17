@@ -110,7 +110,7 @@ Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billin
 ### Engineering Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shrey1110-dotcom/shrey1110-dotcom/main/assets/activity-graph.svg?v=1d9bd8e58288" alt="Contribution activity graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/shrey1110-dotcom/shrey1110-dotcom/main/assets/activity-graph.svg?v=c7f0e1e287da" alt="Contribution activity graph" width="100%" />
 </div>
 
 <br/>
