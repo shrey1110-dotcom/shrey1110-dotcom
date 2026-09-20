@@ -17,7 +17,7 @@ Building LLMs and ML tools
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/shrey1110-dotcom/shrey1110-dotcom/main/assets/github-streak.svg?v=d7b776ce6c8a" alt="GitHub contribution streak" width="495" height="195" />
+<img src="https://raw.githubusercontent.com/shrey1110-dotcom/shrey1110-dotcom/main/assets/github-streak.svg?v=5a5e674a6b4f" alt="GitHub contribution streak" width="495" height="195" />
 
 <br/>
 
@@ -110,7 +110,7 @@ Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billin
 ### Engineering Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shrey1110-dotcom/shrey1110-dotcom/main/assets/activity-graph.svg?v=b8c161bd01e0" alt="Contribution activity graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/shrey1110-dotcom/shrey1110-dotcom/main/assets/activity-graph.svg?v=98cb7cd800a1" alt="Contribution activity graph" width="100%" />
 </div>
 
 <br/>
