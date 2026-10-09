@@ -91,7 +91,7 @@ The browser sends keypoints. The API computes joint angles, compares them to ref
 </td>
 <td width="50%" valign="top">
 
-#### [Frontline AI](https://retain-ai-eight.vercel.app)
+#### [Frontline AI](https://getfrontline.vercel.app)
 
 Product for local service businesses that miss calls and texts. It answers SMS, can call people back, and hands messy cases to the owner.
 
@@ -101,7 +101,7 @@ Private Next.js app on Twilio webhooks, Supabase, and Gemini, with Stripe billin
 
 `Next.js` · `TypeScript` · `Twilio` · `Gemini` · `Supabase` · `Vitest`
 
-[Live Product →](https://retain-ai-eight.vercel.app)
+[Live Product →](https://getfrontline.vercel.app)
 
 </td>
 </tr>
