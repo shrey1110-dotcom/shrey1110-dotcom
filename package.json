@@ -3,5 +3,10 @@
   "private": true,
   "type": "module",
   "description": "Live streak + activity SVG APIs for the GitHub profile README",
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vercel": "^59.7.0"
+  }
 }
